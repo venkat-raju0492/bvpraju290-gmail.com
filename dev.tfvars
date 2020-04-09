@@ -1,0 +1,13 @@
+redis_engine = "redis"
+redis_node_type = "cache.t2.small"
+parameter_groupname = "default.redis5.0"
+redis_engine_version = "5.0.5"
+redis_port = "6379"
+redis_node_groups = 1
+redis_maintainance_window = "sun:10:00-sun:11:00"
+redis_allowed_cidrs = ["",""]
+region = ""
+environment = ""
+vpc_id = ""
+project = ""
+private_subnet_ids = ["","", ""]
