@@ -11,3 +11,4 @@ environment = ""
 vpc_id = ""
 project = ""
 private_subnet_ids = ["","", ""]
+bastion_host_sg_id = ""
